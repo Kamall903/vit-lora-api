@@ -1,0 +1,23 @@
+{
+    "model_name": "google/vit-base-patch16-224",
+    "num_classes": 10,
+    "class_names": [
+        "AnnualCrop",
+        "Forest",
+        "HerbaceousVegetation",
+        "Highway",
+        "Industrial",
+        "Pasture",
+        "PermanentCrop",
+        "Residential",
+        "River",
+        "SeaLake"
+    ],
+    "quantization": "dynamic_int8",
+    "fp32_accuracy": 0.9777777777777777,
+    "int8_accuracy": 0.9720987654320987,
+    "fp32_latency_ms_per_image": 84.10042499995143,
+    "int8_latency_ms_per_image": 55.88608375005606,
+    "fp32_size_mb": 327.39376735687256,
+    "int8_size_mb": 84.4255781173706
+}
